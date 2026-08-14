@@ -13,6 +13,7 @@ import { rehypeAboutDirectives, remarkAboutDirectives } from './about-directives
 import remarkCallout from './remark-callout.mjs';
 import { sanitizeSchema } from './sanitize-schema.mjs';
 import shikiToolbar from './shiki-toolbar.mjs';
+import { rehypeRawImagePaths } from './rehype-raw-image-paths.mjs';
 
 export const markdownMathOptions = Object.freeze({
   singleDollarTextMath: false
@@ -140,7 +141,8 @@ export const publicMarkdownRehypeSegments = Object.freeze([
       'rehypeRestoreMarkdownMathBoundary',
       'rehype-about-directives',
       'rehype-sanitize',
-      'rehype-katex'
+      'rehype-katex',
+      'rehype-raw-image-paths'
     ]
   },
   {
@@ -275,7 +277,8 @@ export const createProjectMarkdownRehypePlugins = ({ aboutBase = '/', aboutEnabl
     ...(aboutEnabled === undefined ? {} : { enabled: aboutEnabled })
   }],
   [rehypeSanitize, sanitizeSchema],
-  rehypeKatex
+  rehypeKatex,
+  rehypeRawImagePaths
 ];
 
 // 顶层 markdown.remarkPlugins/rehypePlugins 自 Astro 6.4 起弃用(Astro 7 默认处理器

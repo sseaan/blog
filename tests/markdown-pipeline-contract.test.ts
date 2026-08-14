@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import remarkSmartypants from 'remark-smartypants';
 import { rehypeAboutDirectives, remarkAboutDirectives } from '../src/plugins/about-directives.mjs';
+import { rehypeRawImagePaths } from '../src/plugins/rehype-raw-image-paths.mjs';
 import {
   createMarkdownShikiConfig,
   createProjectMarkdownRehypePlugins,
@@ -102,7 +103,8 @@ describe('markdown pipeline contract', () => {
         'rehypeRestoreMarkdownMathBoundary',
         'rehype-about-directives',
         'rehype-sanitize',
-        'rehype-katex'
+        'rehype-katex',
+        'rehype-raw-image-paths'
       ]
     });
   });
@@ -141,6 +143,7 @@ describe('markdown pipeline contract', () => {
     expect(pluginOf(rehypePlugins[4])).toBe(rehypeSanitize);
     expect(optionsOf(rehypePlugins[4])).toBe(sanitizeSchema);
     expect(pluginOf(rehypePlugins[5])).toBe(rehypeKatex);
+    expect(pluginOf(rehypePlugins[6])).toBe(rehypeRawImagePaths);
   });
 
   it('keeps Shiki themes and toolbar transformer in one public factory', () => {
