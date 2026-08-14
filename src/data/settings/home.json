@@ -5,8 +5,8 @@
     "archive",
     "tag"
   ],
-  "showIntroLead": true,
-  "showIntroMore": true,
+  "showIntroLead": false,
+  "showIntroMore": false,
   "heroPresetId": "default",
   "heroImageSrc": null,
   "heroImageAlt": "Flat"
