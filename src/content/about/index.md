@@ -1,29 +1,39 @@
 ---
 ---
 
-你好，欢迎来到这里
+你好，我是 **Sean**!  
+在互联网上，我常常使用 **Sean**、**Sseaan**这两种变体名字。
 
-这是 Whono 主题的 about 页面示例
+我是一名来自广州的高三学生，目前正在备战高考。  
+喜欢玩绝区零、第五人格、Minecraft、胡闹厨房、独立单机游戏......
 
-示例内容覆盖站点介绍、友链列表、常见问题与联系说明，可按实际站点替换。
+我对新奇的东西始终保持好奇心，所以会在这里记录下生活中的所思所想和折腾过程中的一些问题和解决方案。
+
+
+
+如果你看到这里还想看看怎么和我联系：  
+
+* GitHub: [Sseaan](https://github.com/sseaan)  
+* Email: [i@ssean.cn](mailto:i@ssean.cn)
 
 ## 朋友们
 
-:::friend{name="Astro" url="https://astro.build/" avatar="https://cdn.nodeimage.com/i/LAW2Al4JZrPhfTs7ObHbisPLGwWuR6x5.webp"}
-用于构建高性能内容网站的前端框架
-:::
-
-:::friend{name="Whono" url="https://github.com/cxro/astro-whono" avatar="author/avatar.webp"}
-一个极简的双栏 Astro 主题
+:::friend{name="L1nsn0w" url="https://blog.sn0w.fyi/" avatar="https://sn0w.fyi/assets/avatar-mark-B2LTjFKG.png"}
+无限进步
 :::
 
 
 ## 常见问题
 
 :::faq{question="如何交换友链？"}
-可以通过 GitHub Issue 联系我或者 [发送邮件](mailto:你的邮箱@example.com?subject=交换友链申请&body=站点名称：%0A链接：%0A简介：%0A头像：)，请附上站点名称、链接、简介和头像。
+可以通过 GitHub Issue 联系我或者 [发送邮件](mailto:i@ssean.cn?subject=交换友链申请&body=站点名称：%0A链接：%0A简介：%0A头像：)，请附上站点名称、链接、简介和头像。
 
-::site-info{name="Whono" url="https://astro.whono.me/" description="一个极简的双栏 Astro 主题" avatar="https://astro.whono.me/author/avatar.webp"}
+::site-info{name="Sean" url="https://blog.ssean.cn/" description="山河见证长久，片刻亦能生辉" avatar="https://img.mvr.cc/cdn/Guoba.png"}
+:::
+
+:::faq{question="友链消失了？"}
+如果你的 Blog 长期处于无人维护阶段，会放入失联列表。  
+如果想要加回友链，请在下方评论。
 :::
 
 :::faq{question="可以转载这里的内容吗？"}

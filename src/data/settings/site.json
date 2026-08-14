@@ -1,11 +1,11 @@
 {
-  "title": "Astro Themes by Whono",
-  "description": "一个极简双栏 Astro 主题的展示站",
+  "title": "Sean's Blog",
+  "description": "一个分享世界的角落",
   "defaultLocale": "zh-CN",
   "footer": {
     "startYear": 2025,
     "showCurrentYear": true,
-    "copyright": "Whono · Theme Demo · by cxro"
+    "copyright": "Sean· by Whono · Astro"
   },
   "adminOverview": {
     "publicVisible": true,
@@ -13,18 +13,27 @@
   },
   "favicon": {
     "svg": null,
-    "png": null,
-    "appleTouchIcon": null
+    "png": "/images/site/favicon-512x512-7f0ee85c.png",
+    "appleTouchIcon": "/images/site/apple-touch-icon-512x512-7f0ee85c.png"
   },
   "socialLinks": {
-    "github": "https://github.com/cxro/astro-whono",
-    "x": "https://twitter.com/yourname",
-    "email": "Astro@Whono.me",
+    "github": "https://github.com/sseaan",
+    "x": null,
+    "email": "i@ssean.cn",
     "presetOrder": {
       "github": 1,
-      "x": 2,
+      "x": 4,
       "email": 3
     },
-    "custom": []
+    "custom": [
+      {
+        "id": "custom-bilibili",
+        "label": "Bilibili",
+        "href": "https://space.bilibili.com/503207957",
+        "iconKey": "bilibili",
+        "visible": true,
+        "order": 2
+      }
+    ]
   }
 }

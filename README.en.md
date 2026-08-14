@@ -14,12 +14,6 @@ A minimal two-column Astro theme for personal writing and lightweight publishing
 - Repository: <https://github.com/cxro/astro-whono>
 
 
-## Preview
-
-<p align="center">
-  <img src="public/preview-light.png" width="49%" alt="Light preview" />
-  <img src="public/preview-dark.png" width="49%" alt="Dark preview" />
-</p>
 
 
 ## Features

@@ -18,7 +18,7 @@
     "showReadingTime": true
   },
   "layout": {
-    "sidebarDivider": "default"
+    "sidebarDivider": "subtle"
   },
   "typography": {
     "readable": "noto-serif-sc",
