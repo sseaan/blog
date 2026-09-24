@@ -358,7 +358,7 @@ NDEF 信息是明文信息，没有加密，不要存储重要信息
 
 ## 公钥交换
 
-我将我的公钥上传到 [OpenPGP 密钥服务器](https://keys.openpgp.org/search?q=sseaan%40outlook.com) 了，可以用我的公钥加密右键/文本，这样我接受到就可以解密了😋
+我将我的公钥上传到 [OpenPGP 密钥服务器](https://keys.openpgp.org/search?q=sseaan%40outlook.com) 了，可以用我的公钥加密邮件/文本，这样我接受到就可以解密了😋
 
 ## 结语
 
